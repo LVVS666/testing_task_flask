@@ -12,7 +12,7 @@ bash
 
 2. Установите зависимости:
    
-pip instal requirements.txt
+pip install requirements.txt
   
   
 
