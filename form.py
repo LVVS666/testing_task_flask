@@ -59,10 +59,10 @@ def get_template(form_data):
 def get_field_type(value):
     if validate_date(value):
         return 'date'
-    elif validate_email(value):
-        return 'email'
     elif validate_phone(value):
         return 'phone'
+    elif validate_email(value):
+        return 'email'
     else:
         return 'text'
 
